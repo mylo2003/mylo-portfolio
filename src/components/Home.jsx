@@ -3,7 +3,7 @@ import SocialMediaBar from './SocialMediaBar';
 
 export default function Home() {
   return (
-    <div className="h-screen bg-gradient-to-b from-[#2B0D3A] to-black">
+    <div id='home' className="h-screen bg-gradient-to-b from-[#2B0D3A] to-transparent">
       <main className="h-full max-w-5xl mx-auto">
         <NavBar />
         <div className="h-[500px] flex items-center lg:ml-10">
@@ -15,7 +15,7 @@ export default function Home() {
               <h2 className="text-2xl lg:text-4xl">Front-end Developer</h2>
             </div>
             <div className="mt-12 lg:mt-0 lg:ml-20">
-              <button className="w-28 lg:w-40 h-12 text-sm lg:text-base rounded-3xl border border-white transition-all hover:bg-white hover:text-black">
+              <button className="w-28 lg:w-40 h-12 font-medium text-sm lg:text-base rounded-3xl border border-white transition-all hover:bg-white hover:text-black">
                 Download CV
               </button>
             </div>
