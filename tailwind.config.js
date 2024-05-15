@@ -11,7 +11,7 @@ export default {
       },
       backgroundImage: {
         'radial-gradient': 'radial-gradient(#735084, #322439)',
-        'noise': "url('/src/assets/nnnoise.svg')",
+        'noise': "url('/src/assets/svg/nnnoise.svg')",
       },
     },
   },

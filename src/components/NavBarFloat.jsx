@@ -1,6 +1,6 @@
 export default function NavBarFloat() {
   return (
-    <nav className="fixed lg:hidden lg:top-[50%] bottom-5 left-0 right-0 lg:left-auto mx-auto w-[330px] bg-[#443455]/50 rounded-3xl backdrop-blur-md shadow-xl lg:rotate-90">
+    <nav className="z-50 fixed lg:hidden bottom-5 inset-x-0 mx-auto lg:bottom-72 lg:-mr-28 w-[330px] bg-[#443455]/50 rounded-3xl backdrop-blur-md shadow-xl lg:rotate-90">
       <ul className="w-[330px] h-[60px] px-8 flex items-center justify-around text-white">
         <li>
           <a href="#home">
