@@ -1,19 +1,25 @@
-import AboutMe from './components/AboutMe';
-import Contact from './components/Contact';
-import Home from './components/Home';
-import NavBarFloat from './components/NavBarFloat';
-import Projects from './components/Projects';
-import Skills from './components/Skills';
+import AboutMe from './components/sections/AboutMe';
+import Contact from './components/sections/Contact';
+import Home from './components/sections/Home';
+import NavBar from './components/sections/NavBar';
+import NavBarFloat from './components/sections/NavBarFloat';
+import Projects from './components/sections/Projects';
+import Skills from './components/sections/Skills';
+import { GeneralProvider } from './context/GeneralContext';
+
 
 export default function App() {
   return (
     <>
-      <Home />
-      <AboutMe />
-      <Projects />
-      <Skills />
-      <Contact />
-      <NavBarFloat />
+      <GeneralProvider>
+        <NavBar />
+        <Home />
+        <AboutMe />
+        <Projects />
+        <Skills />
+        <Contact />
+        <NavBarFloat />
+      </ GeneralProvider>
     </>
   );
 }

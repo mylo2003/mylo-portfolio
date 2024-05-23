@@ -1,11 +1,9 @@
-import NavBar from './NavBar';
 import SocialMediaBar from './SocialMediaBar';
 
 export default function Home() {
   return (
-    <div id='home' className="h-screen bg-gradient-to-b from-[#2B0D3A] to-transparent">
+    <div id='home' className="h-screen flex items-center justify-center bg-gradient-to-b from-[#2B0D3A] to-transparent">
       <main className="h-full max-w-5xl mx-auto">
-        <NavBar />
         <div className="h-[500px] flex items-center lg:ml-10">
           <SocialMediaBar />
           <div className="lg:ml-16 w-full text-white flex flex-col items-center lg:flex-row lg:gap-20">
