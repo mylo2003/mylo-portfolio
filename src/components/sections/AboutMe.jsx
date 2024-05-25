@@ -3,8 +3,8 @@ export default function AboutMe() {
     <div id="about" className="h-screen max-w-5xl mx-auto bg-transparent">
       <div className="h-[80%] flex flex-col items-center justify-center gap-5 lg:flex-row">
         <div className="pt-20 lg:pt-0">
-          <h2 className="text-white text-center lg:pb-10 lg:text-left text-4xl lg:text-5xl font-semibold ">About me</h2>
-          <p className="text-white text-2xl lg:text-3xl m-6 lg:m-0 text-center lg:text-left">Systems engineering student <span className="text-gray-400">&#40;currently in 7th semester&#41;.</span>
+          <h2 className="text-white text-center lg:pb-10 lg:text-left text-4xl md:text-5xl font-semibold ">About me</h2>
+          <p className="text-white text-2xl md:text-3xl m-6 lg:m-0 text-center lg:text-left">Systems engineering student <span className="text-gray-400">&#40;currently in 7th semester&#41;.</span>
             <br />Focused on <span className="font-semibold">frontend development</span>.
             <br />Code as <span className="font-semibold">clean</span> as possible.
             <br />Also an <span className="font-semibold">exceptional</span> teammate.
@@ -78,7 +78,7 @@ export default function AboutMe() {
                 <span className="text-[#c5ccdc]">&#125;</span>
               </p>
             </div>
-            <div className="hidden lg:block absolute left-16 -bottom-28 bg-slate-700 text-white p-6 rounded-lg font-mono">
+            <div className="hidden md:block absolute left-16 -bottom-28 bg-slate-700 text-white p-6 rounded-lg font-mono">
               <p className="text-green-400">$ npm install hobbies</p>
               <p className="text-white">+ hobbies@2.0.2.4</p>
               <p className="text-white">added 1 package, and audited 2 packages in 2s</p>

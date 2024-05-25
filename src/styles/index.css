@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@layer components {
+  .cardSkill {
+    @apply bg-[#0E0C0E] w-16 h-16 flex justify-center items-center  rounded-md bg-gradient-to-r hover:scale-105 from-gray-800 to-black border border-gray-800 duration-200 hover:text-gray-500 hover:border-gray-800 hover:from-black hover:to-gray-900
+  }
+}
 /* width */
 ::-webkit-scrollbar {
   width: 7px;

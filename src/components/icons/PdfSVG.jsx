@@ -1,7 +1,7 @@
 export default function PdfSVG(props) {
   return (
     <svg
-      className="w-10 h-10 lg:w-14 lg:h-14  transition-all hover:fill-gray-500"
+      className="w-10 h-10 md:w-14 md:h-14 transition-all hover:fill-gray-500"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 24 24"
       fill="#ffffff"

@@ -6,8 +6,8 @@ import SuitcaseSVG from "../icons/SuitcaseSVG";
 
 export default function NavBarFloat() {
   return (
-    <nav className="z-50 fixed lg:hidden bottom-5 inset-x-0 mx-auto w-[330px] bg-[#443455]/50 rounded-3xl backdrop-blur-md shadow-xl">
-      <ul className="w-[330px] h-[60px] px-8 flex items-center justify-around text-white">
+    <nav className="z-50 fixed lg:hidden bottom-5 inset-x-0 mx-auto w-[330px] md:w-[400px] bg-[#443455]/50 rounded-3xl backdrop-blur-md shadow-xl">
+      <ul className="w-[330px] md:w-[400px] h-[60px] md:h-[80px] px-8 flex items-center justify-around text-white">
         <li>
           <button className="pt-2" onClick={() => window.scrollTo(0, 0)}>
             <HomeSVG />
