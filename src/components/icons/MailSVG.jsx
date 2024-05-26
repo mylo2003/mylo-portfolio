@@ -1,7 +1,7 @@
 export default function MailSVG(props) {
   return (
     <svg
-      className="w-8 h-8 md:w-10 md:h-10  transition-all hover:text-gray-400" 
+      className="w-9 h-9 transition-all hover:fill-purple-400" 
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 24 24"
       fill="#ffffff"

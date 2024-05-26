@@ -1,7 +1,7 @@
 export default function HomeSVG(props) {
   return (
     <svg
-      className="w-8 h-8 md:w-10 md:h-10 transition-all hover:text-gray-400" 
+      className="w-8 h-8 md:w-10 md:h-10 transition-all hover:text-purple-400" 
       xmlns="http://www.w3.org/2000/svg"
       fill="none"
       viewBox="0 0 24 24"

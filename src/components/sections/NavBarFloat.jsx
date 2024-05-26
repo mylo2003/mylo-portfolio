@@ -30,7 +30,7 @@ export default function NavBarFloat() {
         </li>
         <li>
           <a href="#contact">
-            <MailSVG />
+            <MailSVG className="w-8 h-8 md:w-10 md:h-10 transition-all hover:fill-purple-400" />
           </a>
         </li>
       </ul>

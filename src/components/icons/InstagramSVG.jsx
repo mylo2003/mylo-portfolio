@@ -1,7 +1,7 @@
 export default function InstragramSVG(props) {
   return (
     <svg
-      className="w-9 h-9 transition-all hover:fill-gray-400"
+      className="w-9 h-9 transition-all hover:fill-purple-400"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 24 24"
       fill="#ffffff"

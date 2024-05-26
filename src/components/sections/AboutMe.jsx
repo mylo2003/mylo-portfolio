@@ -1,13 +1,19 @@
+import { useContext } from "react";
+import { GeneralContext } from "../../context/GeneralContext";
+
 export default function AboutMe() {
+
+  const { layoutInfo, personalInfo} = useContext(GeneralContext);
+
   return (
     <div id="about" className="h-screen max-w-5xl mx-auto bg-transparent">
       <div className="h-[80%] flex flex-col items-center justify-center gap-5 lg:flex-row">
         <div className="pt-20 lg:pt-0">
-          <h2 className="text-white text-center lg:pb-10 lg:text-left text-4xl md:text-5xl font-semibold ">About me</h2>
-          <p className="text-white text-2xl md:text-3xl m-6 lg:m-0 text-center lg:text-left">Systems engineering student <span className="text-gray-400">&#40;currently in 7th semester&#41;.</span>
-            <br />Focused on <span className="font-semibold">frontend development</span>.
-            <br />Code as <span className="font-semibold">clean</span> as possible.
-            <br />Also an <span className="font-semibold">exceptional</span> teammate.
+          <h2 className="text-white text-center lg:pb-10 lg:text-left text-4xl md:text-5xl font-semibold">{layoutInfo.aboutMe?.title}</h2>
+          <p className="text-white text-2xl md:text-3xl m-6 lg:m-0 text-center lg:text-left">{personalInfo.personal?.career} <span className="text-gray-400">&#40;{personalInfo.personal?.semester}&#41;.</span>
+            <br />{layoutInfo.aboutMe?.[1]} <span className="font-semibold">{layoutInfo.aboutMe?.[2]}</span>.
+            <br />{layoutInfo.aboutMe?.[3]} <span className="font-semibold">{layoutInfo.aboutMe?.[4]}</span> {layoutInfo.aboutMe?.[5]}.
+            <br />{layoutInfo.aboutMe?.[6]} <span className="font-semibold">{layoutInfo.aboutMe?.[7]}</span> {layoutInfo.aboutMe?.[8]}.
           </p>
         </div>
         <div className="">

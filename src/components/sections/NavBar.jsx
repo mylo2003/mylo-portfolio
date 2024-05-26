@@ -3,7 +3,7 @@ import { GeneralContext } from "../../context/GeneralContext";
 
 export default function NavBar() {
 
-  const { scrolled } = useContext(GeneralContext);
+  const { scrolled, layoutInfo } = useContext(GeneralContext);
 
   return (
     <div className='h-20 bg-[#2B0D3A]'>
@@ -13,16 +13,16 @@ export default function NavBar() {
           <nav className="hidden lg:inline-block text-xl">
             <ul className="flex gap-10 *:cursor-pointer *:transition-all">
               <li className="hover:text-gray-400">
-                <a href="#about">_about</a>
+                <a href="#about">_{layoutInfo.navBar?.about}</a>
               </li>
               <li className="hover:text-gray-400">
-                <a href="#projects">_projects</a>
+                <a href="#projects">_{layoutInfo.navBar?.projects}</a>
               </li>
               <li className="hover:text-gray-400">
-                <a href="#skills">_skills</a>
+                <a href="#skills">_{layoutInfo.navBar?.skills}</a>
               </li>
               <li className="hover:text-gray-400">
-                <a href="#contact">_contact</a>
+                <a href="#contact">_{layoutInfo.navBar?.contact}</a>
               </li>
             </ul>
           </nav>
