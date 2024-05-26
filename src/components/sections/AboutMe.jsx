@@ -42,7 +42,7 @@ export default function AboutMe() {
               <p className="ml-9">
                 <span className="text-[#c5ccdc]">&lt;</span>
                 <span className="text-pink-400">li</span>
-                <span className="text-[#c5ccdc]">&gt;GYM&#128170;</span>
+                <span className="text-[#c5ccdc]">&gt;{layoutInfo.aboutMe?.hobbies[0]}&#128170;</span>
                 <span className="text-[#c5ccdc]">&lt;/</span>
                 <span className="text-pink-400">li</span>
                 <span className="text-[#c5ccdc]">&gt;</span>
@@ -50,7 +50,7 @@ export default function AboutMe() {
               <p className="ml-9">
                 <span className="text-[#c5ccdc]">&lt;</span>
                 <span className="text-pink-400">li</span>
-                <span className="text-[#c5ccdc]">&gt;Read&#128214;</span>
+                <span className="text-[#c5ccdc]">&gt;{layoutInfo.aboutMe?.hobbies[1]}&#128214;</span>
                 <span className="text-[#c5ccdc]">&lt;/</span>
                 <span className="text-pink-400">li</span>
                 <span className="text-[#c5ccdc]">&gt;</span>
@@ -58,7 +58,7 @@ export default function AboutMe() {
               <p className="ml-9">
                 <span className="text-[#c5ccdc]">&lt;</span>
                 <span className="text-pink-400">li</span>
-                <span className="text-[#c5ccdc]">&gt;Play PC video games&#128187;</span>
+                <span className="text-[#c5ccdc]">&gt;{layoutInfo.aboutMe?.hobbies[2]}&#128187;</span>
                 <span className="text-[#c5ccdc]">&lt;/</span>
                 <span className="text-pink-400">li</span>
                 <span className="text-[#c5ccdc]">&gt;</span>
@@ -66,7 +66,7 @@ export default function AboutMe() {
               <p className="ml-9">
                 <span className="text-[#c5ccdc]">&lt;</span>
                 <span className="text-pink-400">li</span>
-                <span className="text-[#c5ccdc]">&gt;Listen music&#127926;</span>
+                <span className="text-[#c5ccdc]">&gt;{layoutInfo.aboutMe?.hobbies[3]}&#127926;</span>
                 <span className="text-[#c5ccdc]">&lt;/</span>
                 <span className="text-pink-400">li</span>
                 <span className="text-[#c5ccdc]">&gt;</span>

@@ -1,7 +1,7 @@
 import { useContext } from 'react';
+import { GeneralContext } from '../../context/GeneralContext';
 import ArrowDownSVG from '../icons/ArrowDownSVG';
 import SocialMediaBar from './SocialMediaBar';
-import { GeneralContext } from '../../context/GeneralContext';
 
 export default function Home() {
 
@@ -20,7 +20,7 @@ export default function Home() {
             </div>
             <div className="mt-12 lg:mt-0 lg:ml-14 lg:pr-12">
               <button className="w-28 md:w-40 h-12 md:text-xl font-medium text-sm lg:text-base rounded-3xl border border-white transition-all hover:bg-white hover:text-black">
-                {layoutInfo.home?.button}
+                <a href={personalInfo.contact?.cv} target='_blank'>{layoutInfo.home?.button}</a> 
               </button>
             </div>
           </div>

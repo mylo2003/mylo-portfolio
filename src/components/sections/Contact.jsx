@@ -1,11 +1,11 @@
+import { GeneralContext } from '../../context/GeneralContext';
+import { useContext } from 'react';
 import toast, { Toaster } from 'react-hot-toast';
 import GithubSVG from "../icons/GithubSVG";
 import InstragramSVG from "../icons/InstagramSVG";
 import LinkedInSVG from "../icons/LinkedInSVG";
 import PdfSVG from "../icons/PdfSVG";
 import ArrowDownSVG from '../icons/ArrowDownSVG';
-import { GeneralContext } from '../../context/GeneralContext';
-import { useContext } from 'react';
 
 export default function Contact() {
 
@@ -47,7 +47,7 @@ export default function Contact() {
             </a>
           </li>
           <li className="cursor-pointer">
-            <a href="">
+            <a href={personalInfo.contact?.cv} target='_blank'>
               <PdfSVG />
             </a>
           </li>

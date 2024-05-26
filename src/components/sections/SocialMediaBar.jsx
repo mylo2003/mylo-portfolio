@@ -1,9 +1,9 @@
 import { useContext } from "react";
+import { GeneralContext } from "../../context/GeneralContext";
 import GithubSVG from "../icons/GithubSVG";
 import InstragramSVG from "../icons/InstagramSVG";
 import LinkedInSVG from "../icons/LinkedInSVG";
 import MailSVG from "../icons/MailSVG";
-import { GeneralContext } from "../../context/GeneralContext";
 
 export default function SocialMediaBar() {
 
