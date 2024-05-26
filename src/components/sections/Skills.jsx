@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 import { GeneralContext } from '../../context/GeneralContext';
 import ArrowDownSVG from '../icons/ArrowDownSVG';
-import { ReactLogo, TailwindCSS, JavaScript, Java, Vite, Csharp, HTML5, CSS, Git, MySQL, MongoDB, Slack, Figma, Notion } from '../icons/TechsIcons'
+import { ReactLogo, TypeScript, TailwindCSS, JavaScript, Java, Vite, Csharp, HTML5, Git, MySQL, MongoDB, Slack, Figma, Notion } from '../icons/TechsIcons'
 
 export default function Skills() {
 
@@ -25,7 +25,7 @@ export default function Skills() {
               <TailwindCSS className='w-10 h-10' />
             </div>
             <div className='cardSkill w-20 h-20 md:translate-y-12 md:translate-x-2'>
-              <CSS className='w-12 h-12' />
+              <TypeScript className='w-12 h-12' />
             </div>
             <div className='cardSkill'>
               <Java className='w-12 h-12' />
@@ -33,6 +33,7 @@ export default function Skills() {
             <div className='cardSkill md:translate-y-20 md:-translate-x-12'>
               <Csharp className='w-10 h-10' />
             </div>
+          
             <div className='cardSkill w-20 h-20'>
               <ReactLogo className='w-12 h-12' />
             </div>
